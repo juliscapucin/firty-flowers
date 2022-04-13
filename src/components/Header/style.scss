@@ -1,0 +1,26 @@
+.header-container {
+  position: relative;
+  height: 85vh;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.header-menu {
+  position: absolute;
+  left: 0;
+  top: 5rem;
+  li {
+    margin: 1rem 0;
+  }
+}
+
+.header-text-container {
+  overflow: hidden;
+  height: auto;
+}
+
+.header-text {
+  font-size: 15vw;
+  text-align: center;
+}
